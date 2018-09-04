@@ -94,6 +94,15 @@ let
         sha1 = "ca1f7870302212518fa24b07726f9c50a15c7559";
       };
     };
+    "binwrap-0.2.0" = {
+      name = "binwrap";
+      packageName = "binwrap";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/binwrap/-/binwrap-0.2.0.tgz";
+        sha512 = "0c9kdli35n5ww9jd0d2jbxhgn4jdd55b1cqlp4janq4rpx95wr7lq62i6ps2k4pkakihh5k56kx9ldh6cpd2l52xhvz3k5wy252jjqx";
+      };
+    };
     "block-stream-0.0.9" = {
       name = "block-stream";
       packageName = "block-stream";
@@ -310,13 +319,13 @@ let
         sha1 = "5eff8e3e684d569ae4cb2b1282604e8ba62149fa";
       };
     };
-    "glob-7.1.2" = {
+    "glob-7.1.3" = {
       name = "glob";
       packageName = "glob";
-      version = "7.1.2";
+      version = "7.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-7.1.2.tgz";
-        sha512 = "08vjxzixc9dwc1hn5pd60yyij98krk2pr758aiga97r02ncvaqx1hidi95wk470k1v84gg4alls9bm52m77174z128bgf13b61x951h";
+        url = "https://registry.npmjs.org/glob/-/glob-7.1.3.tgz";
+        sha512 = "30h0j9f3xj7mwciwmi9q9ilhlc0l391jrvv0xws0yxgh389ynin3qqrw8xiyfy5w3f667bwn9p0i3f01s2ir0ai1rwbb038ij4fxixx";
       };
     };
     "graceful-fs-3.0.11" = {
@@ -472,22 +481,22 @@ let
         sha1 = "99eb050093b34dffade421b9ac0b410a9cfa17cf";
       };
     };
-    "mime-db-1.35.0" = {
+    "mime-db-1.36.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.35.0";
+      version = "1.36.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.35.0.tgz";
-        sha512 = "2z0hg1s6s06823iw041by439rs9sh26ab9mrmcxh7h9p41g12if4hjm95bldnm2qkv2gccgfjn9ras64d1mj8bhlc41vc4kq0hzyr15";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.36.0.tgz";
+        sha512 = "07xb34b0p2pqcq97sbqi0cl9ab7cslrpnji9zvzm3ai51csxgjrywz6v51szbi50p4gn20c201rhmgyr1n04qxxbl68d4jc7z46zv1g";
       };
     };
-    "mime-types-2.1.19" = {
+    "mime-types-2.1.20" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.19";
+      version = "2.1.20";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.19.tgz";
-        sha512 = "2rkxflhfkijqffwjkkj1911xikh99qfmdk8iiz1bsl69i9rvrxlf80ipr062z2aaqb5b1r8g49hax70vrxvd9kflf2snrsjfmh4lnrz";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.20.tgz";
+        sha512 = "3c448km3n479pfhl6dz209dsq3am4incsqd2ccpk8v5l6pbnb49kacipdc9q62j3qg2xfy8v2l1n2c0bx8hgddjdjb6pg7xlcyjpf8y";
       };
     };
     "minimatch-3.0.4" = {
@@ -504,7 +513,7 @@ let
       packageName = "minimist";
       version = "0.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz";
+        url = "http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz";
         sha1 = "857fcabfc3397d2625b8228262e86aa7a011b05d";
       };
     };
@@ -513,8 +522,17 @@ let
       packageName = "mkdirp";
       version = "0.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz";
+        url = "http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz";
         sha1 = "30057438eac6cf7f8c4767f38648d6697d75c903";
+      };
+    };
+    "mustache-2.3.2" = {
+      name = "mustache";
+      packageName = "mustache";
+      version = "2.3.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/mustache/-/mustache-2.3.2.tgz";
+        sha512 = "1aihy6k9338c8w0cip0c3v4s2h5yqd8xksqrv17rjybj01nsrpplbniiv09fvjadwhbyjbhkr82lyx3gyidcli0zp73sqrcsk0hv4ra";
       };
     };
     "natives-1.1.4" = {
@@ -778,6 +796,15 @@ let
         sha1 = "89749c63b058d7d90d619f86b98aa1535d3b97f0";
       };
     };
+    "unzip-stream-0.3.0" = {
+      name = "unzip-stream";
+      packageName = "unzip-stream";
+      version = "0.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/unzip-stream/-/unzip-stream-0.3.0.tgz";
+        sha512 = "3j7r4r1rzgz3kisp8d5jk1sckr8f9jxz4ln29wfkl139a6p1qpr4s6cm9581fscqjwc71fqafd4584myll8z31arz3ps8a6qzy62v9l";
+      };
+    };
     "uuid-3.3.2" = {
       name = "uuid";
       packageName = "uuid";
@@ -854,7 +881,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."fstream-1.0.11"
       sources."getpass-0.1.7"
-      sources."glob-7.1.2"
+      sources."glob-7.1.3"
       sources."graceful-fs-4.1.11"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.0"
@@ -871,8 +898,8 @@ in
       sources."jsprim-1.4.1"
       sources."lodash-4.17.10"
       sources."match-stream-0.0.2"
-      sources."mime-db-1.35.0"
-      sources."mime-types-2.1.19"
+      sources."mime-db-1.36.0"
+      sources."mime-types-2.1.20"
       sources."minimatch-3.0.4"
       sources."minimist-0.0.8"
       sources."mkdirp-0.5.1"
@@ -920,10 +947,10 @@ in
   uglify-js = nodeEnv.buildNodePackage {
     name = "uglify-js";
     packageName = "uglify-js";
-    version = "3.4.8";
+    version = "3.4.9";
     src = fetchurl {
-      url = "https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.8.tgz";
-      sha512 = "3lf7p6i7gxd633ylzqibh0k8agkmq9d93xsl5scspcdn145pkzq00ripmm49fxzzkkl816hsc5v3z8p6si2xi5nxgygz01q7x65iasr";
+      url = "https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz";
+      sha512 = "3axdjl69nv292w1d80vw7pa6rlj14xz4j307268hz2xszfgqf03fswhbf56w4fvkfk5b24c5ag4m9lv7aqyibrwn74vj4ddldn6q8ph";
     };
     dependencies = [
       sources."commander-2.17.1"
@@ -934,6 +961,102 @@ in
       description = "JavaScript parser, mangler/compressor and beautifier toolkit";
       homepage = "https://github.com/mishoo/UglifyJS2#readme";
       license = "BSD-2-Clause";
+    };
+    production = true;
+    bypassCache = true;
+  };
+  elm-format = nodeEnv.buildNodePackage {
+    name = "elm-format";
+    packageName = "elm-format";
+    version = "0.8.0";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/elm-format/-/elm-format-0.8.0.tgz";
+      sha512 = "16rvgd66rwqrn6fgs9g4hairrhnwxi0dsadly7flpx8xq9awfbjrpazaa7p7zimi0d5sp4wzajb2vcppb86nd9p0bnn8b16sqwlzgp0";
+    };
+    dependencies = [
+      sources."ajv-5.5.2"
+      sources."asn1-0.2.4"
+      sources."assert-plus-1.0.0"
+      sources."asynckit-0.4.0"
+      sources."aws-sign2-0.7.0"
+      sources."aws4-1.8.0"
+      sources."balanced-match-1.0.0"
+      sources."bcrypt-pbkdf-1.0.2"
+      sources."binary-0.3.0"
+      sources."binwrap-0.2.0"
+      sources."block-stream-0.0.9"
+      sources."bluebird-3.5.1"
+      sources."brace-expansion-1.1.11"
+      sources."buffers-0.1.1"
+      sources."caseless-0.12.0"
+      sources."chainsaw-0.1.0"
+      sources."co-4.6.0"
+      sources."combined-stream-1.0.6"
+      sources."concat-map-0.0.1"
+      sources."core-util-is-1.0.2"
+      sources."dashdash-1.14.1"
+      sources."delayed-stream-1.0.0"
+      sources."ecc-jsbn-0.1.2"
+      sources."extend-3.0.2"
+      sources."extsprintf-1.3.0"
+      sources."fast-deep-equal-1.1.0"
+      sources."fast-json-stable-stringify-2.0.0"
+      sources."forever-agent-0.6.1"
+      sources."form-data-2.3.2"
+      sources."fs.realpath-1.0.0"
+      sources."fstream-1.0.11"
+      sources."getpass-0.1.7"
+      sources."glob-7.1.3"
+      sources."graceful-fs-4.1.11"
+      sources."har-schema-2.0.0"
+      sources."har-validator-5.1.0"
+      sources."http-signature-1.2.0"
+      sources."inflight-1.0.6"
+      sources."inherits-2.0.3"
+      sources."is-typedarray-1.0.0"
+      sources."isstream-0.1.2"
+      sources."jsbn-0.1.1"
+      sources."json-schema-0.2.3"
+      sources."json-schema-traverse-0.3.1"
+      sources."json-stringify-safe-5.0.1"
+      sources."jsprim-1.4.1"
+      sources."lodash-4.17.10"
+      sources."mime-db-1.36.0"
+      sources."mime-types-2.1.20"
+      sources."minimatch-3.0.4"
+      sources."minimist-0.0.8"
+      sources."mkdirp-0.5.1"
+      sources."mustache-2.3.2"
+      sources."oauth-sign-0.9.0"
+      sources."once-1.4.0"
+      sources."path-is-absolute-1.0.1"
+      sources."performance-now-2.1.0"
+      sources."psl-1.1.29"
+      sources."punycode-1.4.1"
+      sources."qs-6.5.2"
+      sources."request-2.88.0"
+      sources."request-promise-4.2.2"
+      sources."request-promise-core-1.1.1"
+      sources."rimraf-2.6.2"
+      sources."safe-buffer-5.1.2"
+      sources."safer-buffer-2.1.2"
+      sources."sshpk-1.14.2"
+      sources."stealthy-require-1.1.1"
+      sources."tar-2.2.1"
+      sources."tough-cookie-2.4.3"
+      sources."traverse-0.3.9"
+      sources."tunnel-agent-0.6.0"
+      sources."tweetnacl-0.14.5"
+      sources."unzip-stream-0.3.0"
+      sources."uuid-3.3.2"
+      sources."verror-1.10.0"
+      sources."wrappy-1.0.2"
+    ];
+    buildInputs = globalBuildInputs;
+    meta = {
+      description = "Install elm-format";
+      homepage = https://github.com/avh4/elm-format;
+      license = "BSD-3-Clause";
     };
     production = true;
     bypassCache = true;

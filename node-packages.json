@@ -1,1 +1,1 @@
-["elm", "uglify-js"]
+["elm", "uglify-js", "elm-format"]
